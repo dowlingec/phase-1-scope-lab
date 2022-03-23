@@ -1,11 +1,10 @@
 // Write your solution in this file!
 var customerName =  'bob'
 const leastFavoriteCustomer = 'Jeff Bezos'
-// function upperCaseCustomerName() {
-//     return (customerName.toUpperCase())
-// }
-// upperCaseCustomerName(customerName)
-// console.log(customerName.toUpperCase())
+
+function upperCaseCustomerName(str) {
+    customerName = str.toUpperCase();
+}
 
 function setBestCustomer() {
     bestCustomer = 'not bob'

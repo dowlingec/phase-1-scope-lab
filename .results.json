@@ -5,15 +5,15 @@
     "passes": 4,
     "pending": 0,
     "failures": 1,
-    "start": "2022-03-21T14:12:16.745Z",
-    "end": "2022-03-21T14:12:17.151Z",
-    "duration": 406
+    "start": "2022-03-23T00:53:41.938Z",
+    "end": "2022-03-23T00:53:42.345Z",
+    "duration": 407
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -22,10 +22,7 @@
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
@@ -44,7 +41,7 @@
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -56,17 +53,14 @@
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: upperCaseCustomerName is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "upperCaseCustomerName is not defined"
-      }
+      "err": {}
     }
   ],
   "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -87,7 +81,7 @@
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
